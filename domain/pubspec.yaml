@@ -3,14 +3,16 @@ description: "A new Flutter package project."
 version: 1.0.0
 publish_to: none
 
-
 environment:
-  sdk: '>=3.2.5 <4.0.0'
+  sdk: ">=3.2.5 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  # data
+  data_repo:
+    path: ../data
   freezed_annotation: ^2.4.1
   json_annotation: ^4.9.0
 

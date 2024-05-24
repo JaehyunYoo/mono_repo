@@ -258,6 +258,10 @@ yaml
 2.19
 file:///Users/toby/.pub-cache/hosted/pub.dev/yaml-3.1.2/
 file:///Users/toby/.pub-cache/hosted/pub.dev/yaml-3.1.2/lib/
+data_repo
+3.2
+file:///Users/toby/Desktop/mono_repo/lib/app/data/
+file:///Users/toby/Desktop/mono_repo/lib/app/data/lib/
 domain_repo
 3.2
 file:///Users/toby/Desktop/mono_repo/lib/app/domain/
