@@ -1,0 +1,17 @@
+name: workspace_melos
+
+packages:
+  - apps/**
+  - features/**
+
+scripts:
+  # usage : melos run setup
+  format:
+    run: melos exec dart format . --fix
+    description: Run `dart format` for all packages.
+
+  pub_get:
+    run: melos exec -c 1 -- flutter pub get
+  
+  clean:
+    run: melos exec -- flutter clean
